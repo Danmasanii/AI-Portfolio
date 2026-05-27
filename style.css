@@ -1,4 +1,9 @@
 /* General */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
     font-family: Arial, sans-serif;
@@ -14,6 +19,8 @@ body {
                 top: 0;
                   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                   }
+.logo{
+  width: 100px;}
                   .navbar .container {
                     display: flex;
                       justify-content: space-between;
